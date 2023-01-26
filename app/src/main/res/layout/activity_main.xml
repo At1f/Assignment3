@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/genderradio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter course name-->
+    <EditText
+        android:id="@+id/stud_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Name" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/stud_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Student Number" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/stud_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Student Email" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/stud_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter State" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/stud_DOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Date of Birth eg: YYYY-MM-DD" />
+
+    <!--button for adding new course-->
+
+    <EditText
+        android:id="@+id/stud_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Gender" />
+
+    <Button
+        android:id="@+id/AddBttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Enter Details"
+        android:textAllCaps="false" />
+
+</LinearLayout>
